@@ -1,6 +1,6 @@
 import streamlit as st
 import pickle
-from model import clean_text   # agar model.py me hai
+from models.train_model import clean_text   # agar model.py me hai
 st.markdown("""
 <style>
 #MainMenu {visibility: hidden;}
